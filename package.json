@@ -8,11 +8,16 @@
     "lib",
     "dist"
   ],
+  "homepage": "https://github.com/HTony03/metar",
+  "bugs": {
+    "url": "https://github.com/HTony03/metar/issues"
+  },
   "license": "MIT",
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "METER查询"
   ],
   "peerDependencies": {
     "koishi": "4.18.7"
