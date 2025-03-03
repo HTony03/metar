@@ -269,7 +269,7 @@ export function apply(ctx: Context, config: Config) {
     }
   });
 
-  ctx.command(`${config.commandname} <icao: string > `)
+  ctx.command(`${config.commandname} <icao:string>`)
     .alias(config.commandalias)
     .usage('使用方法：metar <ICAO代码>')
     .example('metar KSFO')
